@@ -1,0 +1,22 @@
+{
+    "fields": {
+      "pan_number": {
+        "pattern": "^[A-Z]{5}[0-9]{4}[A-Z]$",
+        "heading": "Permanent Account Number Card",
+        "direction": "Down"
+      },
+      "person_name": {
+        "heading": "Name",
+        "direction": "Down"
+      },
+      "father_name": {
+        "heading": "Father's Name",
+        "direction": "Down"
+      },
+      "dob": {
+        "pattern": "\\b\\d{2}/\\d{2}/\\d{4}\\b",
+        "heading": "Date of Birth",
+        "direction": "Down"
+      }
+    }
+  }

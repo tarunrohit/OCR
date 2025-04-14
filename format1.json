@@ -1,0 +1,22 @@
+{
+    "fields": {
+      "person_name": {
+        "heading": "Income Tax Department",
+        "direction": "Down"
+      },
+      "father_name": {
+        "heading": "Father's Name",
+        "direction": "Down"
+      },
+      "dob": {
+        "pattern": "\\b\\d{2}/\\d{2}/\\d{4}\\b",
+        "heading": "Date of Birth",
+        "direction": "Down"
+      },
+      "pan_number": {
+        "pattern": "^[A-Z]{5}[0-9]{4}[A-Z]$",
+        "heading": "Permanent Account Number",
+        "direction": "Down"
+      }
+    }
+  }

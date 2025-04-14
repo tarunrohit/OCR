@@ -1,0 +1,57 @@
+{
+  "PAN_Card": {
+    "PAN_No": {
+      "Format": "Pattern",
+      "Pattern": "^[A-Z]{5}[0-9]{4}[A-Z]$",
+      "Direction": "Down",
+      "Heading": "Permanent Account Number"
+    },
+    "Person_Name": {
+      "Format": "Line",
+      "Line": 1,
+      "Direction": "Down",
+      "Heading": "Income Tax Department"
+    },
+    "DOB": {
+      "Format": "Date",
+      "Direction": "Up",
+      "Heading": "PAN No"
+    },
+    "Father_Name": {
+      "Format": "Line",
+      "Line": 1,
+      "Direction": "Up",
+      "Heading": "DOB"
+    }
+  },
+  "Aadhaar_Card": {
+    "Aadhaar_No": {
+      "Format": "Pattern",
+      "Pattern": "^[0-9]{4}\\s[0-9]{4}\\s[0-9]{4}$",
+      "Direction": "Down",
+      "Heading": "Government of India"
+    },
+    "Person_Name": {
+      "Format": "Line",
+      "Line": 1,
+      "Direction": "Down",
+      "Heading": "Unique Identification Authority of India"
+    },
+    "DOB": {
+      "Format": "Date",
+      "Direction": "Down",
+      "Heading": "Year of Birth"
+    },
+    "Father_Name": {
+      "Format": "Line",
+      "Line": 1,
+      "Direction": "Down",
+      "Heading": "S/O D/O W/O"
+    },
+    "Address": {
+      "Format": "Block",
+      "Direction": "Below",
+      "Heading": "Address"
+    }
+  }
+ }
