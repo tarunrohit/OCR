@@ -1,0 +1,13 @@
+{
+  "Address": {
+    "heading": ["Address", "Add"],
+    "direction": "below",
+    "format": "block"
+  },
+  "Pincode": {
+    "heading": "",
+    "direction": "anywhere",
+    "format": "regex",
+    "pattern": "\\b\\d{6}\\b"
+  }
+}
