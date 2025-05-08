@@ -1,0 +1,26 @@
+{
+  "Person_Name": {
+    "heading": ["GOVT. OF INDIA","GOVT OF INDIA"],
+    "direction": "down",
+    "format": "line_relative",
+    "line_offset": 1
+  },
+  "Father_Name": {
+    "heading": ["GOVT. OF INDIA","GOVT OF INDIA"],
+    "direction": "down",
+    "format": "line_relative",
+    "line_offset": 2
+  },
+  "DOB": {
+    "heading": "PAN_No",
+    "direction": "up",
+    "format": "date",
+    "pattern": "NN/NN/NNNN"
+  },
+  "PAN_No": {
+    "heading": "Permanent Account Number",
+    "direction": "down",
+    "format": "pattern",
+    "pattern": "CCCCCNNNNC"
+  }
+}

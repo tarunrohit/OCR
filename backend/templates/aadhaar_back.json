@@ -1,0 +1,19 @@
+{
+  "Address": {
+    "heading": ["Address", "Add"],
+    "direction": "below",
+    "format": "block"
+  },
+  "Pincode": {
+    "heading": "",
+    "direction": "anywhere",
+    "format": "regex",
+    "pattern": "\\b\\d{6}\\b"
+  },
+  "Aadhaar_No": {
+    "heading": "",
+    "direction": "anywhere",
+    "format": "regex",
+    "pattern": "(?<!\\d)\\d{4}\\s?\\d{4}\\s?\\d{4}(?!\\d)"
+  }
+}

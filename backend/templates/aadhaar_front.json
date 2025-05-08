@@ -1,0 +1,32 @@
+{
+  "Person_Name": {
+    "heading": ["DOB", "D.O.B", "YOB", "Y.O.B", "Year of Birth", "Date of Birth"],
+    "direction": "up",
+    "format": "line_relative",
+    "line_offset": [1, 2, 3]
+  },
+  "DOB": {
+    "heading": "",
+    "direction": "anywhere",
+    "format": "regex",
+    "pattern": "\\d{2}/\\d{2}/\\d{4}"
+  },
+  "Gender": {
+    "heading": "",
+    "direction": "anywhere",
+    "format": "regex",
+    "pattern": "\\b(Male|Female|Others)\\b"
+  },
+  "Aadhaar_No": {
+    "heading": "",
+    "direction": "anywhere",
+    "format": "regex",
+    "pattern": "(?<!\\d)\\d{4}\\s?\\d{4}\\s?\\d{4}(?!\\d)"
+  },
+  "VID": {
+    "heading": "",
+    "direction": "anywhere",
+    "format": "regex",
+    "pattern": "VID\\s*[:]?\\s*(\\d{4}\\s?\\d{4}\\s?\\d{4}\\s?\\d{4})"
+  }
+}
