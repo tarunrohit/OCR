@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+.bg-gradient {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+}
+
+body {
+  @apply text-gray-900;
+  /* Replace with a more suitable, royalty-free background or keep as is if you have rights */
+  background-image: url('https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=1920');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#root {
+  @apply min-h-screen w-full;
+}
+
+/* For nice scrollbar in ResultsDisplay */
+.nice-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.nice-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f133; /* Slightly transparent track */
+  border-radius: 10px;
+}
+.nice-scrollbar::-webkit-scrollbar-thumb {
+  background: #c5c5c5aa; /* Slightly transparent thumb */
+  border-radius: 10px;
+}
+.nice-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8cc;
+}
