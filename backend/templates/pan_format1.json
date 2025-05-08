@@ -1,0 +1,27 @@
+{
+  "PAN_No": {
+    "heading": "Permanent Account Number Card",
+    "direction": "down",
+    "format": "pattern",
+    "pattern": "CCCCCNNNNC"
+  },
+  "Person_Name": {
+    "heading": "Name",
+    "direction": "down",
+    "format": "line_relative",
+    "line_offset": 1
+  },
+  "Father_Name": {
+    "heading": ["Father' $ Name","Father's Name","Father'$ Name"],
+    "direction": "down",
+    "format": "line_relative",
+    "line_offset": 1
+  },
+  "DOB": {
+    "heading": "Date of Birth",
+    "direction": "down",
+    "format": "date",
+    "pattern": "NN/NN/NNNN"
+  }
+}
+
