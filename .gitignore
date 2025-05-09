@@ -1,3 +1,18 @@
+# Jupyter notebooks
+*.ipynb
+
+# Cache & Python bytecode
+__pycache__/
+*.pyc
+
+
+# Node modules if frontend uses npm
+node_modules/
+
+# Vite or React build folders
+dist/
+build/
+
 # Logs
 logs
 *.log
@@ -12,7 +27,6 @@ dist
 dist-ssr
 *.local
 
-# Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
