@@ -46,5 +46,5 @@ Follow these instructions to set up and run the project on your local machine.
 
 Open your terminal or command prompt and run:
 ```bash
-git clone <your-repository-url>
-cd <repository-folder-name>
+git clone "https://github.com/tarunrohit/OCR.git"
+cd OCR
